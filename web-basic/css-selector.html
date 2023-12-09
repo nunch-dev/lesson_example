@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS Selector Practice Only HTML tags</title>
+</head>
+<body>
+<header id="main-header">
+  <nav id="main-nav">
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#courses">Courses</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <div class="account-info">
+      <img src="avatar.jpg" alt="User avatar" class="avatar">
+      <button id="login-btn">Log In</button>
+    </div>
+  </nav>
+</header>
+
+<main>
+  <section id="home" class="hero">
+    <h1>Welcome to our learning platform</h1>
+    <p>Start your journey with us today</p>
+    <button id="get-started-btn">Get Started</button>
+  </section>
+
+  <section id="courses" class="tile-container">
+    <article class="course-tile">
+      <img src="course1.jpg" alt="Course 1">
+      <div class="course-info">
+        <h3>Course 1</h3>
+        <p>Learn the basics of web development.</p>
+      </div>
+    </article>
+    <article class="course-tile">
+      <img src="course2.jpg" alt="Course 2">
+      <div class="course-info">
+        <h3>Course 2</h3>
+        <p>Dive deeper into advanced web development topics.</p>
+      </div>
+    </article>
+    <!-- ...more courses... -->
+  </section>
+
+  <section id="about">
+    <div class="about-content">
+      <h2>About Our Company</h2>
+      <p>Our company is a leading provider of high-quality online education. With a focus on cutting-edge topics in web development, our aim is to empower individuals with the skills they need to succeed in the digital age.</p>
+      <div class="team-members">
+        <h3>Our Team</h3>
+        <ul>
+          <li class="team-member">
+            <img src="team1.jpg" alt="Team Member 1">
+            <div class="member-info">
+              <h4>John Doe</h4>
+              <p>CEO & Founder</p>
+            </div>
+          </li>
+          <li class="team-member">
+            <img src="team2.jpg" alt="Team Member 2">
+            <div class="member-info">
+              <h4>Jane Smith</h4>
+              <p>CFO & Co-Founder</p>
+            </div>
+          </li>
+          <!-- ...more team members... -->
+        </ul>
+      </div>
+      <h3>Our Values</h3>
+      <ul class="values-list">
+        <li>Innovation</li>
+        <li>Quality</li>
+        <li>Learning</li>
+        <li>Community</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="contact-form">
+      <h2>Contact Us</h2>
+      <form>
+        <div class="form-group">
+          <label for="name">Full Name</label>
+          <input type="text" id="name" name="name">
+        </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email">
+        </div>
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea id="message" name="message"></textarea>
+        </div>
+        <div class="form-group">
+          <button type="submit">Send Message</button>
+        </div>
+      </form>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="footer-section">
+    <h3>About Us</h3>
+    <p>This is a digital learning platform dedicated to bringing you the latest in technology education, relevant courses and excellent learning experience.</p>
+  </div>
+  <div class="footer-section">
+    <h3>Quick Links</h3>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#courses">Courses</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </div>
+  <div class="footer-section">
+    <h3>Connect with Us</h3>
+    <p>Follow us on our social media pages:</p>
+    <ul class="social-links">
+      <li><a href="#">Facebook</a></li>
+      <li><a href="#">Twitter</a></li>
+      <li><a href="#">LinkedIn</a></li>
+    </ul>
+  </div>
+</footer>
+
+</body>
+</html>

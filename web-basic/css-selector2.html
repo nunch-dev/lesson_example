@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CSS Selector Practice using some design</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
+</head>
+<body>
+<header>
+  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+    <a class="navbar-brand" href="#">Advanced Selector Practice</a>
+    <div class="collapse navbar-collapse">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#features">Features</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+</header>
+
+<main role="main" class="container">
+  <h1>Welcome to CSS Advanced Selector Practice</h1>
+  <section id="features">
+    <h2>Features</h2>
+    <div class="row feature-item" id="feature1">
+      <div class="col-12">
+        <h3>Feature 1</h3>
+        <p>This is where we describe the first feature.</p>
+      </div>
+    </div>
+    <div class="row feature-item" id="feature2">
+      <div class="col-6">
+        <h3>Feature 2</h3>
+        <p>This is where we describe the second feature.</p>
+      </div>
+      <div class="col-6 el-even">
+        <h3>More About Feature 2</h3>
+        <p>Information about a sub-part of Feature 2.</p>
+      </div>
+    </div>
+  </section>
+  <section>
+    <article id="list-practice">
+      <h2>Lists</h2>
+      <div class="row">
+        <div class="col">
+          <h3>Unordered List</h3>
+          <ul>
+            <li>Apple</li>
+            <li>Banana</li>
+            <li>Orange</li>
+          </ul>
+        </div>
+        <div class="col">
+          <h3>Ordered List</h3>
+          <ol>
+            <li>First</li>
+            <li>Second</li>
+            <li>Third</li>
+          </ol>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <h3>Definition List</h3>
+          <dl>
+            <dt>Orange</dt>
+            <dd>A tangy fruit</dd>
+            <dt>Apple</dt>
+            <dd>Fruit of the apple tree</dd>
+          </dl>
+        </div>
+      </div>
+    </article>
+  </section>
+  <section id="contact">
+    <h2>Contact</h2>
+    <form>
+      <div class="form-group">
+        <label for="contact-name">Name</label>
+        <input type="text" class="form-control" id="contact-name" placeholder="Enter your name">
+      </div>
+      <div class="form-group">
+        <label for="contact-email">Email address</label>
+        <input type="email" class="form-control" id="contact-email" placeholder="Enter email">
+      </div>
+      <div class="form-group">
+        <label for="contact-message">Your Message</label>
+        <textarea class="form-control" id="contact-message" rows="3"></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+  </section>
+</main>
+
+<footer class="footer mt-auto py-3">
+  <div class="container">
+    <span class="text-muted">© Your Website 2022</span>
+  </div>
+</footer>
+</body>
+</html>
